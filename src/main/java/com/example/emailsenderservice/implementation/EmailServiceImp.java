@@ -30,7 +30,7 @@ public class EmailServiceImp implements EmailService {
       simpleMailMessage.setTo(to);
       simpleMailMessage.setSubject(subject);
       simpleMailMessage.setText(message);
-      simpleMailMessage.setFrom("utkarshtewari1234@gmail.com");
+      simpleMailMessage.setFrom("bajpaipranjal665@gmail.com");
       javaMailSender.send(simpleMailMessage);
       logger.info("Email sent");
     }
@@ -40,7 +40,7 @@ public class EmailServiceImp implements EmailService {
         SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
         simpleMailMessage.setTo(to);
         simpleMailMessage.setSubject(subject);
-        simpleMailMessage.setFrom("utkarshtewari1234@gmail.com");
+        simpleMailMessage.setFrom("bajpaipranjal665@gmail.com");
         javaMailSender.send(simpleMailMessage);
     }
 
